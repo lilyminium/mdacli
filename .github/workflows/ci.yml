@@ -30,7 +30,7 @@ jobs:
 
     - name: Test with tox
       run: |
-        pyver="py${{ matrix.python-version | tr -d . }}"
+        pyver="py$(echo '${{ matrix.python-version }}' | tr -d . )"
         tox -e $pyver
 
     #from https://github.com/codecov/codecov-action
