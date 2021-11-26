@@ -6,15 +6,15 @@
     "latest": true
   },
   {
-    "version": "stable",
-    "display": "stable",
-    "url": "https://mdacli.mdanalysis.org/stable",
-    "latest": false
-  },
-  {
     "version": "dev",
     "display": "dev",
     "url": "https://mdacli.mdanalysis.org/dev",
+    "latest": false
+  },
+  {
+    "version": "stable",
+    "display": "stable",
+    "url": "https://minium.com.au/mdacli/stable",
     "latest": false
   }
 ]
